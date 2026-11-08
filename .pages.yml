@@ -1,0 +1,19 @@
+media:
+  - name: images
+    label: Изображения
+    input: public/images
+    output: /images
+
+content:
+  - name: site
+    label: Настройки сайта
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: title
+        label: Заголовок сайта
+        type: string
+      - name: description
+        label: Описание сайта
+        type: text
